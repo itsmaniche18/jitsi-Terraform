@@ -1,0 +1,11 @@
+AWS_ACCESS_KEY   = "AWS_ACCESS_KEY"
+AWS_SECRET_KEY   = "AWS_SECRET_KEY"
+INSTANCE_TYPE    = "c5a.xlarge"
+IMAGE_ID         = "ami-038096e0485bcc34b"
+vpcid            = "vpcid"
+SUBNETS          = ["subnet-id"]
+AWS_REGION       = "us-north-1"
+MIN_SIZE         = 1
+MAX_SIZE         = 5
+DESIRED_CAPACITY = 1
+AUTOSCALING_NAME = "test-asg"
